@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<html lang="es">
+<html>
+
+<head>
+
+  <link href="/css/contacto.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>xexumono</title>
+  <link rel="shortcut icon" href="/imagenes/1.png">
+
+</head>
+
+<body>
+  <center>
+    <header>
+
+      <a href="https://mipagina.xech562.repl.co"><img class="logo" src="/imagenes/12.png" alt="image" alt
+          width="120"></a>
+
+    </header>
+  </center>
+
+  <center id="menu">
+    <a href="index.html" class="btn-neon">
+
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      Sobre mi
+    </a>
+
+
+    <a href="Felipe.html" class="btn-neon">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      Felipe
+    </a>
+
+    <a href="misidolos.html" class="btn-neon">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      Mis idolos
+    </a>
+
+    <a href="contacto.html" class="btn-neon">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      contacto
+    </a>
+  </center>
+  <center>
+    <section>
+
+      <form class="form">
+        <form action="procesar_formulario.php" method="post">
+          <label for="nombre" >Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="apellido1" style="padding-top: 50px;">Apellido :</label>
+          <input type="text" id="apellido1" name="apellido1" required>
+
+          <label for="telefono" style="padding-top: 500px;">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" required>
+
+          <label for="email" style="padding-top: 50px;">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+          <p>Seleccione su género:</p>
+          <div class="genero">
+            <input type="radio" id="hombre" name="genero" value="hombre" required>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="mujer" required>
+            <label for="mujer">Mujer</label>
+          </div>
+          <input class="enviar" type="submit" value="Enviar">
+        </form>
+  </center>
+</body>
+
+</html>

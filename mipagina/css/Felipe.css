@@ -1,0 +1,122 @@
+ body{
+    margin: 0;
+    padding: 0;
+    display: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("https://www.xtrafondos.com/wallpapers/resoluciones/19/casa-kame-de-dragon-ball_2560x1440_3963.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:consolas;
+    overflow-x: hidden;
+
+}
+
+#mapa {
+  position: relative;
+  margin-top: 5vh;
+  display: inline-block;
+  width: 3px;
+  height: 7px;
+  flex: 1;
+  text-align: center;
+}
+#felipe{
+  float: left;
+   margin-left: 15000%;
+
+  display: inline-block;
+  position:relative
+}
+#texto {
+  margin-left: 50%;
+  margin-top: 13%;
+  font-family: Times New Roman;
+  font-size: 15px;
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(53, 95, 97);
+  opacity: 70%;
+  border: 1px solid white;
+  flex: 1;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: transparent(53, 95, 97);
+    box-shadow: 0 0 10px rgb(0, 52, 194), 0 0 40px rgb(16, 55, 185), 0 0 80px rgb(4, 238, 255);
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: f;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,rgb(47, 0, 255));
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,rgb(137, 1, 179));
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgb(253, 0, 139));
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,rgb(255, 187, 0));
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+  
+#menu{position: sticky;
+      position:-webkit-sticky;
+  top: 1px;
+}
+
